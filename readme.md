@@ -28,6 +28,9 @@ Didalam website ini terdapat beberapa menu:
 ## Struktur Folder
 Struktur folder yang terdapat didalam project ini:
 ```
+├── app/
+│   ├── Controllers/
+|       ├── AppController.php
 ├── assets/
 │   ├── bootstrap/
 │   ├── css/
@@ -58,7 +61,16 @@ Struktur folder yang terdapat didalam project ini:
 │       ├── holder.js
 │   ├── popper/
 │       ├── popper.js
+├── vendor/
+│   ├── bin/
+│   ├── composer/
+│   ├── nesbot/
+│   ├── symfony/
+│   ├── autoload.php
 ├── bintang.php
+├── composer.json
+├── composer.lock
+├── date.php
 ├── ganjilgenap.php
 ├── index.php
 ├── kalkulator.php
